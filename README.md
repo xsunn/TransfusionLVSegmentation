@@ -1,7 +1,7 @@
 # Transformer Based Feature Fusion for Left Ventricle Segmentation in 4D Flow MRI
 
 ## 1. Introduction
-The repository is the 0fficial code for the paper of <br>
+The repository is the official code based on Pytorch for the paper of <br>
 ``
 "Transformer Based Feature Fusion for Left Ventricle Segmentation in 4D Flow MRI"  MICCAI 2022, Singapore
 ``
