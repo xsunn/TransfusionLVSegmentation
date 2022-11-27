@@ -23,4 +23,17 @@ Data <br>
 &emsp;&emsp;├── SAX4DFX <br>
 &emsp;&emsp;├── SAX4DFY <br>
 &emsp;&emsp;├── SAX4DFZ <br>
+
+
+The training data path is saved in TXT file as following:<br>
+.../DATA/Patient1/SAX4DFMASK/IM_sl0010_ph0001.dcm <br>
+.../DATA/Patient1/SAX4DFMASK/IM_sl0010_ph0002.dcm <br>
+...<br>
+...<br>
+...<br>
+
 ## 3. Model structure
+### Feature fusion layer
+![image text](https://github.com/xsunn/4DFlowLVSeg/blob/main/ModelStructure/SAL.png)
+### Segmentation network
+![image text](https://github.com/xsunn/4DFlowLVSeg/blob/main/ModelStructure/UnetFeatureFusion.png)
